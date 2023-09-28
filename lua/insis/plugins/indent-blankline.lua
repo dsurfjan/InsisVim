@@ -1,4 +1,4 @@
-local indent_blankline = pRequire("indent_blankline")
+local indent_blankline = pRequire("ibl")
 if indent_blankline then
   indent_blankline.setup({
     space_char_blankline = " ",
