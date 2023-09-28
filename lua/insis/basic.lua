@@ -12,11 +12,11 @@ vim.wo.cursorcolumn = false
 -- left sign column
 vim.wo.signcolumn = "yes"
 -- line of reference on right
--- vim.wo.colorcolumn = "80"
+vim.wo.colorcolumn = "80"
 -- 2 space = 1 tab
-vim.o.tabstop = 2
-vim.bo.tabstop = 2
-vim.o.softtabstop = 2
+vim.o.tabstop = 4
+vim.bo.tabstop = 4
+vim.o.softtabstop = 4
 vim.o.shiftround = true
 -- >> << move
 vim.o.shiftwidth = 2
@@ -57,8 +57,8 @@ vim.o.splitright = true
 vim.o.termguicolors = true
 vim.opt.termguicolors = true
 -- invisible chars display
-vim.o.list = false
-vim.o.listchars = "space:·,tab:··"
+vim.o.list = true
+vim.o.listchars = "space:·,tab:····"
 -- cmp
 vim.g.completeopt = "menu,menuone,noselect,noinsert"
 --command-line completion is enhanced
