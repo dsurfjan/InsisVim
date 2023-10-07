@@ -53,12 +53,11 @@ vim.o.timeoutlen = 500
 -- split window right and below
 vim.o.splitbelow = true
 vim.o.splitright = true
-
 vim.o.termguicolors = true
 vim.opt.termguicolors = true
 -- invisible chars display
 vim.o.list = true
-vim.o.listchars = "space:·,tab:····"
+vim.o.listchars = "space:·"
 -- cmp
 vim.g.completeopt = "menu,menuone,noselect,noinsert"
 --command-line completion is enhanced
